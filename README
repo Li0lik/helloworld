@@ -1,1 +1,5 @@
-HI!
+For build this project need run next commands
+
+GOOS=linux GOARCH=amd64 go build -o healthchek main.go
+
+Project works on port 8888
